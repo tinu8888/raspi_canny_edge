@@ -9,7 +9,9 @@
 
 # installation steps :
 sudo apt-get update
+
 sudo apt-get install libopencv-dev
+
 
 # Enable Raspberry PI camera : 
 ![Screenshot](raspi_config.png)
