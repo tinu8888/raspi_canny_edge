@@ -20,7 +20,7 @@ Enable the camera from raspi config and reboot raspi
 
 # compilatioin setps
 
-g++ raspi_canny_edge.cpp -o vt_edge_live -std=c++11 -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_videoio -lopencv_imgcodecs -Wall
+g++ vt_canny_edge_raspi.cpp -o vt_edge_live -std=c++11 -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_videoio -lopencv_imgcodecs -Wall
 
 # run steps 
 
