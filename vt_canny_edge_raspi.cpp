@@ -25,11 +25,6 @@
 #define COLS 640
 #define ROWS 480
 #define SIZE COLS*ROWS
-#define VIDEONAME "frame"
-#define IMG_IN    VIDEONAME "%d.pgm"
-#define IMG_OUT   VIDEONAME "%d_edges.pgm"
-#define IMG_NUM   30 /* number of images processed (1 or more) */
-#define AVAIL_IMG 30 /* number of different image frames (1 or more) */
 
 /* upper bound for the size of the gaussian kernel
  * SIGMA must be less than 4.0
